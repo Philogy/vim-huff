@@ -45,6 +45,7 @@ syn keyword huffAssemblyMethod dup1 dup2 dup3 dup4 dup5 dup6 dup7 dup8 dup9 dup1
 syn keyword huffAssemblyMethod dup15 dup16
 syn keyword huffAssemblyConst  pc msize gas address caller callvalue calldatasize codesize
 syn keyword huffAssemblyConst  returndatasize origin gasprice coinbase timestamp number difficulty gaslimit
+syn keyword huffAssemblyConst  selfbalance
 
 hi def link huffAssemblyMethod Special
 hi def link huffAssemblyConst  Constant
