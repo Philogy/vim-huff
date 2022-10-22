@@ -43,9 +43,10 @@ syn keyword huffAssemblyMethod swap1 swap2 swap3 swap4 swap5 swap6 swap7 swap8 s
 syn keyword huffAssemblyMethod swap13 swap14 swap15 swap16
 syn keyword huffAssemblyMethod dup1 dup2 dup3 dup4 dup5 dup6 dup7 dup8 dup9 dup10 dup11 dup12 dup13 dup14
 syn keyword huffAssemblyMethod dup15 dup16
+syn keyword huffAssemblyMethod sha3
 syn keyword huffAssemblyConst  pc msize gas address caller callvalue calldatasize codesize
 syn keyword huffAssemblyConst  returndatasize origin gasprice coinbase timestamp number difficulty gaslimit
-syn keyword huffAssemblyConst  selfbalance chainid sha3
+syn keyword huffAssemblyConst  selfbalance chainid
 
 hi def link huffAssemblyMethod Special
 hi def link huffAssemblyConst  Constant
