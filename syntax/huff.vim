@@ -11,7 +11,7 @@ syn match huffInclude '#include'
 syn match huffDefine  '#define'
 
 syn keyword huffKeyword     takes returns 
-syn keyword huffKeyword     return
+syn keyword huffKeyword     return jumptable jumptable__packed table
 syn keyword huffBuiltinType address
 syn keyword huffBuiltinType int int8 int16 int24 int32 int40 int48 int56 int64 int72 
 syn keyword huffBuiltinType uint uint8 uint16 uint24 uint32 uint40 uint48 uint56 uint64 uint72 
