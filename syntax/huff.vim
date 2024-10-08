@@ -35,7 +35,7 @@ hi def link huffBuiltinType Type
 " Assembly
 syn keyword huffAssemblyMethod stop add sub mul div sdiv mod smod exp not lt gt slt sgt eq iszero 
 syn keyword huffAssemblyMethod and or xor byte shl shr sar addmod mulmod signextend keccak256 jump
-syn keyword huffAssemblyMethod jumpi pop mload mstore mstore8 sload sstore calldataload calldatacopy
+syn keyword huffAssemblyMethod jumpi pop mload mstore mstore8 mcopy tload tstore sload sstore calldataload calldatacopy
 syn keyword huffAssemblyMethod codecopy extcodesize extcodecopy returndatacopy extcodehash create create2
 syn keyword huffAssemblyMethod call callcode delegatecall staticcall return revert selfdestruct
 syn keyword huffAssemblyMethod log0 log1 log2 log3 log4 blockhash
@@ -46,7 +46,7 @@ syn keyword huffAssemblyMethod dup15 dup16
 syn keyword huffAssemblyMethod sha3
 syn keyword huffAssemblyConst  pc msize gas address caller callvalue calldatasize codesize
 syn keyword huffAssemblyConst  returndatasize origin gasprice coinbase timestamp number difficulty gaslimit
-syn keyword huffAssemblyConst  selfbalance chainid
+syn keyword huffAssemblyConst  selfbalance chainid blobhash blobbasefee
 
 hi def link huffAssemblyMethod Special
 hi def link huffAssemblyConst  Constant
