@@ -89,8 +89,8 @@ hi def link huffFuncReturn    Special
 
 " Numbers
 syntax match  huffNumber '\v0x\x+>'
-syntax match  huffNumber '\v\c<%(\d+%(e[+-]=\d+)=|0b[01]+|0o\o+|0x\x+)>'
-syntax match  huffNumber '\v\c<%(\d+.\d+|\d+.|.\d+)%(e[+-]=\d+)=>'
+syntax match  huffNumber '\v\d+>'
+syntax match  huffNumber '\v0b[01]+>'
 
 hi def link   huffNumber Number
 
